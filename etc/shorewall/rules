@@ -1,0 +1,8 @@
+# NGINX
+HTTP(ACCEPT)	net	$FW
+
+# SSH
+SSH(ACCEPT)	net	$FW
+
+# MOSH
+ACCEPT		net	$FW	udp	60001:61000
